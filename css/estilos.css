@@ -10,7 +10,26 @@ selector {
 }
 */
 
-body{
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
     background-color: lightskyblue;
-    color:white
+    color: white
+}
+
+p {
+    color: blue
+}
+
+.parrafo {
+    color: black
+}
+
+#titulo-principal {
+    font-size: 50px;
+    text-align: center;
 }
