@@ -1,13 +1,4 @@
-/*aca va a ir el codigo css que yo necesito+/
 
-/*esto es un comentario en css*/
-
-/*
-selector {
-    propiedad1: valor;
-    propiedad2: valor;
-    propiedadN: valor;
-}
 */
 
 * {
@@ -18,7 +9,8 @@ selector {
 
 body {
     background-color: lightskyblue;
-    color: white
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 p {
@@ -26,15 +18,46 @@ p {
 }
 
 .parrafo {
-    color: black
+    color: black;
+    background-color: white;
+   display: inline;
+   border: 10px;
+   border-bottom: dotted;
+  
 }
 
 #titulo-principal {
     font-size: 50px;
     text-align: center;
+    color: black;
+    display: block;
+   
 }
 
 .colores {
-    background-color: rgb(17, 185, 228);
-    color: rgb(142, 19, 224);
+    color: rgb(149, 101, 182);
+    margin: 250px;
+    height: 100px;
+    display:block;
+    
+
+}
+.bloque {
+    display: inline;
+}
+.primer-enlace
+{
+    padding: 50px;
+   
+}
+.separacion{
+    padding: 50px;
+    margin: 200px;
+   
+}
+.logotipo-final
+{  
+   height: 300px;
+   margin: 200px;
+   
 }
