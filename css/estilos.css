@@ -8,59 +8,104 @@
 }
 
 body {
-    background-color: rgb(150, 199, 230);
-    color: white;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(5, 5, 5);
+ 
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
 }
 a{
     color: inherit;
 }
 
 p {
-    color: blue
+    color: rgb(7, 7, 7);
 }
 
-.parrafo {
-    color: black;
-    background-color: white;
-   display: inline;
-   border: 10px;
-   border-bottom: dotted;
-  
+.inicio1{
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 100px 0;
 }
 
-#titulo-principal {
-    font-size: 50px;
-    text-align: center;
-    color: black;
-    display: block;
+.inicio-titulo{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    padding: 3rem;
    
-}
-
-.colores {
-    color: rgb(149, 101, 182);
-    margin: 250px;
-    height: 100px;
-    display:block;
     
+}
+
+.parrafo-inicio{
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    padding: 3rem;
 
 }
-.bloque {
-    display: inline;
+
+.boton{
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    padding: 1rem;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+   margin-bottom: 1rem;
+   text-transform: uppercase;
+   font-weight: 700;
+   margin: 2rem;
+
 }
-.primer-enlace
-{
-    padding: 50px;
-   
+
+.inicio1-terminos{
+    font-size: 12px;
+    text-align: justify;
+    line-height: 1.5;
 }
-.separacion{
-    padding: 50px;
-    margin: 200px;
-   
+.bloque{
+    display: block;
 }
-.logotipo-final
-{  
-   height: 300px;
-   margin: 200px;
-   
+.inicio-2{
+ background-image: url(..//imagenes/degradado.jpeg);
+ padding: 100px 0;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ background-attachment: fixed;
+}
+.whatsapp {
+    background-color: rgb(8, 209, 34);
+    color: white;
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    border-radius: 40px;
+    padding: 1rem;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 2rem;
+}
+.header{
+    position: fixed;
+    background-color: rgba(5, 5, 5, 0.979);
+    color: aliceblue;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+.nav-lista{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    text-decoration: none;
+
 }
