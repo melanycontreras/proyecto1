@@ -7,55 +7,148 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>servicios</title>
 
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
         <!--vinculacion de nuestra hoja de estilos css-->
-        <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
 </head>
 
 <body>
     <header class="header">
         <img src="imagenes/personal111.png" alt="logo">
-    
-         <nav>
+
+        <nav>
             <ul class="nav-lista">
-            <li class="nav-item">
-                <a class="nav-enlace"  href="index.html">inicio</a></li>
-            <li class="nav-item">
-                <a class="nav-enlace"  href="tienda.html">tienda</a></li>
-            <li class="nav-item">
-                <a class="nav-enlace"  a href="servicios.html">internet para tu hogar</a></li>
+                <li class="nav-item">
+                    <a class="nav-enlace" href="index.html">inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-enlace" href="tienda.html">tienda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-enlace" a href="servicios.html">internet para tu hogar</a>
+                </li>
             </ul>
         </nav>
-        </header>
-    
+    </header>
 
-    <main>
 
-        <section class=parrafo-inicio>
-            <h1 class="inicio-titulo">Servicios</h1>
-            <div>
-            <p>Cambio de portabilidad</p>
-            <p>¿Sos nuevo en Personal?</p>
-            <p>Internet para tu hogar</p>
-            </div>
-            <img src="imagenes/imagen 2 div main.jpeg" alt="logotipo">
-          
+    <main class="main">
+
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                <div class="col-12 col-md-12">  
+                
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="imagenes/abono.servicios.png" class="d-block w-100" alt="abono">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="imagenes/CSS2.png" class="d-block w-100" alt="abono2">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="imagenes/imagen servicios div 2.png" class="d-block w-100" alt="abono3">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                </div>
+                </div>
+
+
         </section>
-        
+
+        <section class="formulario">
+                <div class="container">
+                <div class="row">
+                <div class="col-12 col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      </div>
+                      <div class="mb-3">
+                        <label for="tipo" class="form-label">Tipo de consulta</label>
+                       <select class="form-select" aria-label="Default select example">
+                            <option selected>Seleccione</option>
+                            <option value="1">problemas con tu servicio</option>
+                            <option value="2">internet</option>
+                            <option value="3">portabilidad</option>
+                          </select>
+
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Dejenos su comentario aqui</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+
+                      <div class="mb-3">
+                        <button type="button" class="btn btn-secondary">Enviar</button>
+
+
+                      </div>
+                </form>
+                </div>
+                <div class="col-12 col-md-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d24897.934796685226!2d-62.27738174469821!3d-38.73521204412586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-38.7514368!2d-62.252646399999996!4m5!1s0x95edbcb2ec272405%3A0xd01b183d7ef7be1!2spersonal!3m2!1d-38.7186473!2d-62.2645796!5e0!3m2!1ses-419!2sar!4v1656352232483!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                </div>
+            </div>
+            </section>
+
+            <section class="contacto2" >
+                <div class="container">
+                <div class="row">
+                <div class="col-12 col-mb-4">
+                    <div class="card">
+                        <img src="imagenes/4g.png" class="card-img-top" alt="4g">
+                        <div class="card-body">
+                          <h5 class="card-title">Adherite al debito automatico</h5>
+                          <p class="card-text"> Consulta por increibles descuentos </p>
+                          <span class=" card__icon jam jam-credit-card"></span>
+
+                        </div>
+                      </div>
+
+                </div>
+                 </div>
+
+                </div>
+                
+                </div>
+
+            </section>
+
     </main>
 
-    <footer class="inicio-2">
-        <img src="imagenes/imagen 3 proyecto.png" alt="conexion">
-        <img src="imagenes/imagen servicios div 2.png" alt="conexion2">
-        <ul>
-            <li><a class="bloque" href="https://www.instagram.com/personalar/?hl=es">Instagram</a></li>
-            <li><a class="bloque" href="https://www.youtube.com/results?search_query=personal+argentina">YouTube</a></li>
-            <li><a class="bloque" href="https://es-la.facebook.com/personalargentina/">Facebook</a></li>
-        </ul>
-        <p>Argentina 2022 Personal</p>
-        <p class="inicio1-terminos">Los servicios que presta Telecom Argentina S.A. están sujetos a disponibilidad técnica y geográfica dentro
-            del territorio de la República Argentina © 1997 Todos los derechos reservados Ciudad Autónoma de Buenos
-            Aires.</p>
+    <footer>
+
     </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
