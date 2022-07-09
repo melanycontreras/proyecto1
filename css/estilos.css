@@ -71,9 +71,9 @@ p {
 }
 
 .titulo_celulares {
+    text-align: center;
     font-size: 40px;
     margin-bottom: 2rem;
-    align-items: center;
     text-decoration: underline;
 }
 .celulares__ {
