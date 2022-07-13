@@ -198,11 +198,40 @@ p {
 .card {
     position: relative;
 }
+
 @media (max-width 1023px) {
+
+
     .parrafo-inicio {
         flex-direction: column;
         align-items: center;
         padding: 4rem 2rem;
+    }
+
+    .celu_ {
+        height:fit-content;
+        width: 100%;
+        
+    }
+
+    .celulares__ {
+        display: flex;
+        width: 80%;
+        flex-direction: row;
+        align-items: center;
+        
+    }
+
+    .celulares_hijo {
+        background-color:rgb(166, 200, 231);
+     
+      width: 0px;
+      height: 80px;
+      border-radius: 10px;
+      padding: 1rem;
+      position: relative;
+      overflow: hidden;
+      flex-direction: column;
     }
     
 }
@@ -215,6 +244,7 @@ p {
         align-items: center;
     
 }
+    
 
  .imageninicio{
      width: 100%;
@@ -227,24 +257,41 @@ p {
  }
 
  .header {
-     display: flex;
+     display:inline-block ;
      justify-content:flex-start;
      background-color: rgb(5, 5, 5);
      flex-direction:column ;
      align-items: flex-start;
-     width: auto;
+     width: 100%
      
  }
  .header-img {
-     display: flex;
+     display:inline-block ;
      height: 30px;
      justify-content: flex-start;
      padding: 2rem;
      align-items: flex-start;
      background-color: black;
-     color: aliceblue;
-     width: auto;
+     width: 100%;
             
+}
+
+.celulares__ {
+    display: flex;
+    width: 100%;
+    flex-direction:column;
+    align-items: center ;
+
+}
+
+.celu_ {
+    display: flex;
+    height:fit-content;
+    background-color: rgb(73, 180, 212);
+    
+}
+.celulares_hijo {
+ background-color: inherit
 }
 }
 
