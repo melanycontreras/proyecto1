@@ -1,5 +1,4 @@
 
-*/
 
 * {
     padding: 0;
@@ -65,10 +64,6 @@ p {
 
 }
 
-.celulares {
-    background-color: rgb(166, 200, 231);
-    
-}
 
 .titulo_celulares {
     text-align: center;
@@ -87,7 +82,7 @@ p {
 }
 
 .celulares_hijo {
-    background-color:rgb(166, 200, 231);
+
  
   width: 300px;
   height: 300px;
@@ -95,6 +90,7 @@ p {
   padding: 2rem;
   position: relative;
   overflow: hidden;
+  
 }
 
 .celu_ {
@@ -120,6 +116,7 @@ p {
  background-position: center;
  background-size: cover;
  background-attachment: fixed;
+ 
 }
 .whatsapp {
     background-color: rgb(8, 209, 34);
@@ -199,7 +196,13 @@ p {
     position: relative;
 }
 
-@media (max-width 1023px) {
+.section_tienda {
+    margin: 2rem;
+    padding: 2rem;
+    position: relative;
+}
+
+@media (max-width: 1023px) {
 
 
     .parrafo-inicio {
@@ -294,6 +297,7 @@ p {
  background-color: inherit
 }
 }
+
 
 
   
