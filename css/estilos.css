@@ -150,6 +150,7 @@ p {
     display: flex;
     list-style: none;
     flex-direction: row;
+    padding: 1rem;
 
 }
 
@@ -236,6 +237,15 @@ p {
       overflow: hidden;
       flex-direction: column;
     }
+
+    .nav-lista {
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+        justify-content:flex-end;
+        gap: 10px;
+        margin-left: 0%;
+        text-decoration: underline;
     
 }
 
@@ -260,23 +270,13 @@ p {
  }
 
  .header {
-     display:inline-block ;
-     justify-content:flex-start;
+     display:flex;
+     justify-content:center;
      background-color: rgb(5, 5, 5);
      flex-direction:column ;
-     align-items: flex-start;
-     width: 100%
      
  }
- .header-img {
-     display:inline-block ;
-     height: 30px;
-     justify-content: flex-start;
-     padding: 2rem;
-     align-items: flex-start;
-     background-color: black;
-     width: 100%;
-            
+
 }
 
 .celulares__ {
@@ -296,14 +296,33 @@ p {
 .celulares_hijo {
  background-color: inherit
 }
+
+.nav-lista {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 0%;
+    text-decoration: underline;
+    
+
+}
+.titulo {
+    display: flex;
+    width: auto;
+  
+}
+
+img,iframe,video {
+
+    width: 100%;
+    object-fit: cover;
+}
+
 }
 
 
 
   
-
-
-
-    
-
- 
